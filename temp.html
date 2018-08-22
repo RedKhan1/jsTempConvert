@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Convert Temperature</title>
+    <style>
+        body {
+            background-color: #123;
+        }
+
+        #fahr-cels-app {
+            width: 600px;
+            min-height: 450px;
+            background-color: #abc;
+            color: #456;
+            font-family: sans-serif;
+            padding: 10px;
+            margin: 20px auto;
+            border: 10px solid #456;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        input,
+        button {
+            font-size: 1rem;
+            padding: 5px 10px;
+            background-color: orange;
+            color: antiquewhite;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 5em;
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <div id="fahr-cels-app">
+        <h2>Javascript Temperature Converter</h2>
+        <h3>Enter Temperature to Convert:&nbsp;<input type="number" id="myTemp"></h3>
+        <button onclick="convertTemperature('FC')">Fahrenheit to Celcius</button>
+        <p><img src="Images/CelsiusAndFahrenheit.jpg"></p>
+        <h3 id="conversion">Converted Temperature:</h3>
+    </div>
+<script src="temp.js"></script>
+    
+
+
+
+</body>
+
+</html>
